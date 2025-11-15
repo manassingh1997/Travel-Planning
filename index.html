@@ -191,129 +191,118 @@
     <!-- testimonials sections ends here -->
     <!-- form booking section starts -->
     <section id="booking" role="form" aria-label="booking section">
-      <div class="container">
-        <h2 id="bookng-heading">Book Your Travel</h2>
-        <p id="booking-desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
-          et!
+  <div class="container">
+    <h2 id="booking-heading">Book Your Travel</h2>
+    <p id="booking-desc">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, et!
+    </p>
+
+    <form aria-label="booking-form" method="post">
+      
+      <label for="fullname">Full Name</label>
+      <input 
+        type="text" 
+        name="fullname" 
+        id="fullname" 
+        required 
+        placeholder="Enter your full name"
+      />
+
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        name="email" 
+        id="email" 
+        required 
+        placeholder="Enter your email"
+      />
+
+      <label for="phone">Phone Number</label>
+      <input 
+        type="tel" 
+        name="phone" 
+        id="phone" 
+        required 
+        placeholder="Enter your phone number"
+      />
+
+      <label for="destination">Destination</label>
+      <select name="destination" id="destination">
+        <option value="paris">Paris</option>
+        <option value="bali">Bali</option>
+        <option value="newyork">New York</option>
+      </select>
+
+      <label for="message">Message or Feedback</label>
+      <textarea 
+        name="message" 
+        id="message" 
+        placeholder="Enter your special requirement">
+      </textarea>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</section>
+
+
+    
+      <footer class="footer">
+    <div class="container footer-content">
+
+      <!-- About -->
+      <div class="footer-section">
+        <h3>ExploreWorld</h3>
+        <p>
+          Your trusted travel partner. Discover breathtaking destinations and 
+          unforgettable experiences around the globe.
         </p>
 
-        <form aria-label="booking-form" method="post">
-          <label for="fullname">Full Name</label>
-          <input
-            type="text"
-            name="fname"
-            id="fullname"
-            required
-            placeholder="enter your full name"
-          />
-          <label for="fullname">Full Name</label>
-          <input
-            type="text"
-            name="fname"
-            id="fullname"
-            required
-            placeholder="enter your full name"
-          />
-          <label for="fullname">Full Name</label>
-          <input
-            type="text"
-            name="fname"
-            id="fullname"
-            required
-            placeholder="enter your full name"
-          />
-
-          <label for="destination">Destinations</label>
-          <select name="destination id="destination">
-            <option value="">Paris</option>
-            <option value="">Bali</option>
-            <option value="">New York</option>
-          </select>
-
-          <label for="message or feedback">Message or Feedback</label>
-          <textarea<!-- link for font awesome and poppins -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-            name="feedback"
-            id="message"
-            placeholder="enter your special requirement"
-          ></textarea>
-          <button type="submit">Book Now</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- home work -->
-     <!-- 1. make a good looking footer with same theme -->
-      <!--<footer>
-        <div>
-            <h2>Find US</h2>
-           <iframe title="ExploreWorld Office Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019835235083!2d-122.41941538468187!3d37.77492977975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9d7b8a3%3A0x47fca1f7b3b9b0e!2sTravel%20Agency!5e0!3m2!1sen!2sin!4v1680000000000" allowfullscreen="" loading="lazy"></iframe>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
-      </footer>-->
-      <footer class="footer">
-  <div class="container footer-content">
-
-    <!-- About -->
-    <div class="footer-section">
-      <h3>ExploreWorld</h3>
-      <p>
-        Your trusted travel partner. Discover breathtaking destinations and 
-        unforgettable experiences around the globe.
-      </p>
-
-      <div class="social-links">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
       </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+
+        <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+        <p><i class="fa-solid fa-envelope"></i> support@exploreworld.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
+      </div>
+
+      <!-- Map -->
+      <div class="footer-section">
+        <h3>Find Us</h3>
+        <iframe 
+          title="ExploreWorld Office Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019835235083!2d-122.41941538468187!3d37.77492977975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9d7b8a3%3A0x47fca1f7b3b9b0e!2sTravel%20Agency!5e0!3m2!1sen!2sin!4v1680000000000"  
+          loading="lazy"
+        ></iframe>
+      </div>
+
     </div>
 
-    <!-- Quick Links -->
-    <div class="footer-section">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#packages">Packages</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#booking">Book Now</a></li>
-      </ul>
+    <div class="footer-bottom">
+      <p>© 2025 ExploreWorld. All Rights Reserved.</p>
     </div>
-
-    <!-- Contact -->
-    <div class="footer-section">
-      <h3>Contact Us</h3>
-
-      <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
-      <p><i class="fa-solid fa-envelope"></i> support@exploreworld.com</p>
-      <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
-    </div>
-
-    <!-- Map -->
-    <div class="footer-section">
-      <h3>Find Us</h3>
-      <iframe 
-        title="ExploreWorld Office Location"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019835235083!2d-122.41941538468187!3d37.77492977975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9d7b8a3%3A0x47fca1f7b3b9b0e!2sTravel%20Agency!5e0!3m2!1sen!2sin!4v1680000000000"  
-        loading="lazy"
-      ></iframe>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2025 ExploreWorld. All Rights Reserved.</p>
-  </div>
-</footer>
+  </footer>
 
   </body>
 </html>
